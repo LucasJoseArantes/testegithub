@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    
+}
+
+header{
+    background-color: black;
+    
+}
+
+header ul{
+    background-color: rgb(0, 102, 128);
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+header li{
+    display: inline-block;
+    
+}
+header a{
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+      
+}
+
+header a:link, header a:visited{
+    color:white
+}
+
+header a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+header li:hover{
+    
+    color: black;
+}
+
+header h1, header h2{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    transition: all 0.5s;
+
+}
+
+header h1:hover{
+    letter-spacing: 5px;
+}
+
+header h2{
+    color: yellow;
+}
+
+header img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    
+}
+
+.container-main{
+    padding: 10px 80px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.caixa-centralizada{
+    background-color: white;
+}
+
+section{
+    padding: 30px;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+section p{
+    line-height: 1.75;
+    padding: 5px;
+}
+
+
+section:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+
+
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.mais-informacoes{
+    color:red;
+    font-weight: bold;
+}
+
+.topicos-italico{
+    font-style: italic;
+}
+
